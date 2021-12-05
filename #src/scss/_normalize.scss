@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Arial', 'Open Sans', 'Roboto', sans-serif;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color:inherit;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+button,
+input,
+textarea,
+input::placeholder,
+textarea::placeholder {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+
+  color:inherit;
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 0.8;
+}

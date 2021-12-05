@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
-  @@include('main.js')
+  @@include('import/main.js')
 
   //TEST WEBP
   /////////////////////////////////////
-  @@include('testWebp.js')
+  @@include('import/testWebp.js')
 });
