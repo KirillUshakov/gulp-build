@@ -202,7 +202,7 @@ function cb () {
 
 // Tasks
 //////////////////////////////////////
-gulp.task('oft2ttf', function () {
+gulp.task('otf2ttf', function () {
   return src([ source_folder + '/fonts/*.otf' ])
     .pipe(
       fonter({
