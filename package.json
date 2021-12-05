@@ -25,7 +25,7 @@
     "gulp-webp-html": "^1.0.2",
     "gulp-webpcss": "^1.1.1",
     "sass": "^1.44.0",
-    "webp-converter": "^2.2.3"
+    "webp-converter": "2.2.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
